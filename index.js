@@ -11,7 +11,6 @@ function nowServing (katzDeliLine) {
   else {
   for (index=0; index<katzDeliLine.length; index++) {
   var customer = katzDeliLine[0];
-  katzDeliLine[0] = "";
   }
   return `Currently serving ${customer}`;
   } 
