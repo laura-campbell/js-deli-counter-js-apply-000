@@ -6,7 +6,7 @@ function takeANumber (katzDeliLine, name) {
   nameArr[index] = name;
   for (index=0; index < nameArr.length; index++) {
   katzDeliLine[index] = name;
-  var place = katzDeliLine.length;
+  var place = katzDeliLine.length + nameArr.length - 1;
   message[index] = `Welcome, ${nameArr[index]}. You are number ${place} in line.`
   }
   return message;
