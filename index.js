@@ -15,6 +15,7 @@ var katzDeliLine = [];
 var index=0;
 var nameArr = [];
 function takeANumber (katzDeliLine, name) {
+  katzDeliLine.push;
   nameArr = name.split(",");
   for (index=0; index < nameArr.length; index++) {
   katzDeliLine[index] = nameArr[index];
