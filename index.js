@@ -7,6 +7,7 @@ function takeANumber (katzDeliLine, name) {
   katzDeliLine[index] = nameArr[index];
   var place = katzDeliLine.length;
   var message = `Welcome, ${nameArr[index]}. You are number ${place} in line.`
+  console.log(nameArr[index]);
   }
   return message;
 }
