@@ -19,6 +19,7 @@ function nowServing (katzDeliLine) {
 }
 function currentLine (katzDeliLine) {
   var list;
+  var index;
   for (index=0; index<katzDeliLine.length; index++) {
   list = `${index + 1}. ${katzDeliLine[index]},`;
   list += list;
