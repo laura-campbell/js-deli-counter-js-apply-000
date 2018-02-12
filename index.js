@@ -1,6 +1,7 @@
 var katzDeliLine = [];
 var name = [];
 var message = [];
+var index;
 function takeANumber (katzDeliLine, name) {
   for (index=0; index <= name.length; index++) {
   katzDeliLine[index] = name;
