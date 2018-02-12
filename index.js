@@ -16,3 +16,4 @@ function nowServing (katzDeliLine) {
   katzDeliLine.splice(0,1);
   }
 }
+}
