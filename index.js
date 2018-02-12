@@ -10,8 +10,9 @@ function nowServing (katzDeliLine) {
   }
   else {
   for (index=0; index<katzDeliLine.length; index++) {
-  console.log (katzDeliLine[0]);
+  var customer = (katzDeliLine[0]);
   katzDeliLine[0] = "";
   }
+  return customer;
   } 
 }
