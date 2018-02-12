@@ -13,6 +13,6 @@ function nowServing (katzDeliLine) {
   var customer = (katzDeliLine[0]);
   katzDeliLine[0] = "";
   }
-  return customer;
+  return `Currently serving ${cusomer}`;
   } 
 }
