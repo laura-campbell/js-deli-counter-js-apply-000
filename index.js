@@ -23,5 +23,5 @@ function currentLine (katzDeliLine) {
   for (index=0; index<katzDeliLine.length; index++) {
   list[index] = `${index + 1}. ${katzDeliLine[index]}`;
   }
-  return `The line is currently ${list}`;
+  return `The line is currently` + ;
 }
