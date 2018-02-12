@@ -18,11 +18,10 @@ function nowServing (katzDeliLine) {
 }
 }
 function currentLine (katzDeliLine) {
-  var list='';
+  var list=[];
   var index;
   for (index=0; index<katzDeliLine.length; index++) {
-  var order = `${index + 1}. ${katzDeliLine[index]}`;
-  list = order + ', ';
+  list[index] = `${index + 1}. ${katzDeliLine[index]}`;
   }
   return `The line is currently ${list}`;
 }
