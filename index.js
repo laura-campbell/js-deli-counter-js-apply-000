@@ -5,8 +5,8 @@ function takeANumber (katzDeliLine, name) {
   nameArr = name.split(",");
   for (index=0; index < nameArr.length; index++) {
   katzDeliLine[index] = nameArr[index];
-  var place = katzDeliLine.length;
-  var message = `Welcome, ${nameArr[index]}. You are number ${place} in line.`
+  var place = katzDeliLine.length + index + 1;
+  var message = `Welcome, ${nameArr[index]}. You are number ${place} in line.`;
   console.log(nameArr[index]);
   }
   return message;
